@@ -14,7 +14,7 @@ modelTraining= st.container()
 api='c3f66c29-589c-49cb-b605-b6edceaa6d57'
 sdk = ShroomDK(api)
 st.markdown("<h1 style='text-align: center; color: White;'> NEAR Traders </h1>", unsafe_allow_html=True)
-
+st.sidebar()
 
 def add_logo(logo_path, width, height):
     """Read and return a resized logo"""
