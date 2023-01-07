@@ -13,7 +13,7 @@ modelTraining= st.container()
 api='53012785-d2f9-49a0-81a9-cdd22bc8a330'
 sdk = ShroomDK(api)
 st.markdown("<h1 style='text-align: center; color: White;'> Transactions and Fees ON NEAR</h1>", unsafe_allow_html=True)
-
+st.sidebar()
 
 
 # marketplace= st.checkbox(
